@@ -439,6 +439,9 @@ a {
     color: #1ebfc1;
     font-size: 1.4rem;
     font-weight: 700;
+}
+
+.courses-content .view:hover {
     text-decoration: underline;
 }
 
