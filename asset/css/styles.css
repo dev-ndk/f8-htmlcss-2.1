@@ -618,11 +618,15 @@ a {
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    background: #2ac9bf;
+    background: #ffffff;
+    color: #2ac9bf;
+    border: 1px solid #2ac9bf;
 }
 
 .about-content .controls-btn:hover {
     cursor: pointer;
+    background: #2ac9bf;
+    color: #ffffff;
     opacity: 0.9;
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
 }
