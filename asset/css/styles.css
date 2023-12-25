@@ -338,3 +338,65 @@ a {
 .hero-summary-3 .avatar.purple {
     background: #bf83ff;
 }
+
+/* Features */
+
+.features {
+    padding-top: 130px;
+}
+
+.features-content {
+    width: 50.5%;
+}
+
+.features-content .label {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.features-content .sub-title {
+    margin: 18px 0;
+    color: #0d1111;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.33; /* 133.333% */
+}
+
+.features-content .desc {
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.features-list {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.features-item:first-child {
+    width: 14.4%;
+    margin-right: 9px;
+}
+
+.features-item:not(.features-item:first-child) {
+    width: 19.1%;
+    margin-left: 200px;
+}
+
+.features-item .title {
+    margin-top: 26px;
+    color: #0d1111;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.features-item .desc {
+    margin-top: 16px;
+    color: #9da6a5;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.69; /* 168.75% */
+}
