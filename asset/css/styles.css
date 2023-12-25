@@ -476,11 +476,15 @@ a {
     box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
 }
 
-.courses-info .sub-title {
+.courses-info .sub-title a {
     color: #0d1111;
     font-size: 2.2rem;
     font-weight: 700;
     line-height: 1.5;
+}
+
+.courses-info .sub-title a:hover {
+    text-decoration: underline;
 }
 
 .courses-info .price {
