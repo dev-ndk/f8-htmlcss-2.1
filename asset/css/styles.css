@@ -548,6 +548,7 @@ a {
     text-align: center;
     font-size: 6.2rem;
     font-weight: 700;
+    line-height: 1.5;
 }
 
 .qty-group .qty-desc {
@@ -556,6 +557,7 @@ a {
     text-align: center;
     font-size: 1.8rem;
     font-weight: 400;
+    line-height: 1.5;
 }
 
 .about-row {
@@ -714,6 +716,7 @@ a {
     color: #070707;
     font-size: 4.2rem;
     font-weight: 700;
+    line-height: 1.5;
 }
 
 .contact .desc {
@@ -721,8 +724,65 @@ a {
     color: #767e7e;
     font-size: 1.8rem;
     font-weight: 400;
+    line-height: 1.5;
 }
 
 .contact .btn {
     margin: 0 154px 0 auto;
+}
+
+.footer {
+    padding-top: 130px;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    margin-top: -6px;
+}
+
+.footer .heading {
+    margin-bottom: 25px;
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.footer .list a {
+    color: #535353;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.footer .list a:hover {
+    text-decoration: underline;
+}
+
+.footer .list li:not(.footer .list li:last-of-type) {
+    margin-bottom: 20px;
+}
+
+.footer .row-flex li {
+    display: flex;
+    align-items: center;
+}
+
+.footer .row-flex img {
+    width: 20px;
+    height: 20px;
+    margin-right: 9px;
+}
+
+.footer .copyright {
+    padding: 80px 0 50px;
+    text-align: center;
+    color: #b0b5b4;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
 }
