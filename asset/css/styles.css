@@ -443,6 +443,7 @@ a {
 }
 
 .courses-group {
+    margin-top: 79px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -452,6 +453,7 @@ a {
 .courses-item {
     position: relative;
     width: calc(33.33% - 16px);
+    height: 517px;
 }
 
 .courses-item .thumb {
