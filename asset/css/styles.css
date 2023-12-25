@@ -693,3 +693,36 @@ a {
     left: 569px;
     background: #b1dfdc;
 }
+
+/* Contact */
+
+.contact {
+    padding: 76px 0 88px;
+    background: #def6f5;
+}
+
+.contact .row {
+    display: flex;
+    align-items: center;
+}
+
+.contact .content {
+    width: 36%;
+}
+
+.contact .sub-title {
+    color: #070707;
+    font-size: 4.2rem;
+    font-weight: 700;
+}
+
+.contact .desc {
+    margin-top: 18px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.contact .btn {
+    margin: 0 154px 0 auto;
+}
