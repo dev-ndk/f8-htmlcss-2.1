@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Common */
+
+.btn {
+    display: inline-block;
+    min-width: 186px;
+    padding: 0 16px;
+    color: #fff;
+    border-radius: 24px;
+    background: #2ac9bf;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 68px;
+    text-align: center;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.main-content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 0px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+
+.header {
+    background: #ffffff;
+}
+
+.header.fixed {
+    position: sticky;
+    top: -44px;
+}
+
+.header .row {
+    display: flex;
+    align-items: center;
+    padding: 52px 0 8px;
+}
+
+.header .nav {
+    margin: 0 auto;
+}
+
+.header .nav .list {
+    display: flex;
+    gap: 0 39px;
+}
+
+.header .nav a {
+    color: #2f3a3b;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.header .nav a:hover {
+    text-shadow: 1px 0px 0px #2f3a3b;
+}
+
+.header .list .active a {
+    text-shadow: 1px 0px 0px #2f3a3b;
+}
+
+.header .action a {
+    color: #494949;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.header .action .btn {
+    margin-left: 26px;
+    min-width: 108px;
+    line-height: 46px;
+    border-radius: 6px;
+    background: transparent;
+    border: 1px solid #1ebfc1;
+    color: #1ebfc1;
+    font-size: 1.6ren;
+    font-weight: 600;
+}
